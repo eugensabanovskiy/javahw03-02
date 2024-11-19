@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         BmiService service = new BmiService();
-        double myBmi = service.bmi(98,1.87);
+        int myBmi = service.bmi(98, 187);
         System.out.println(myBmi);
     }
 }
